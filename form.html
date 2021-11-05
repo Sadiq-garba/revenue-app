@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Kano state revenue collection system</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+ <!-- <link href="img/favicon.png" rel="icon">-->
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+  <link href="lib/magnific/dist/magnific-popup.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+ 
+  <header id="header" class="fixed-top" style="background-color: white;">
+    <div class="container">
+      
+      <div class=" float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!--<h2 class="text-light"><a href="#header"><span class="inteli" >Intellicode </span></a></h2>-->
+
+      <a href="revenue.html" class="scrollto"><span class="text-style">KS<span style="color:black;">RCS</span> <i class="fa fa-bank"></i></a>
+      </div>
+
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="revenue.html">Home</a></li>
+          <!--href="#about"-->
+          <li><a class="popup-with-form" href="#test-form-tax"><i class="fa-caret-square-up fa-caret-square-up"></i>Pay your tax</a></li>
+          <li><a href="payment"> Make payement</a></li>
+          <li class="drop-down"><a href="#">Nigeria</a>
+            <ul>
+              <li><a href="#">Abia</a></li>
+              <li><a href="#">Adamawa</a></li>
+              <li><a href="#">Anambra</a></li>
+              <li><a href="#">Akwa Ibom</a></li>
+              <li><a href="#">Bauchi</a></li>
+              <li><a href="#">Bayelsa</a></li>
+              <li><a href="#">Benue</a></li>
+              <li><a href="#">Borno</a></li>
+            </ul>
+          </li>
+          <li class="drop-down"><a href="#">Kano</a>
+            <ul>
+              <li><a href="#"></a></li>
+              <li><a href="#">Deep Drop Down 2</a></li>
+              <li><a href="#">Deep Drop Down 3</a></li>
+              <li><a href="#">Deep Drop Down 4</a></li>
+              <li><a href="#">Deep Drop Down 5</a></li>
+            </ul>
+          </li>
+          <li><a class="popup-with-form" href="#test-form"><i class="fa-caret-square-up fa-caret-square-up"></i>Signup</a></li>
+          <li><a class="popup-with-form" href="#test-form-login"><i class="fa-caret-square-up fa-caret-square-up"></i>Login</a></li>
+         
+        </ul>
+      </nav><!-- .main-nav -->
+      
+      
+    </div>
+  </header>
+  
+  <!--==========================
+  Header
+  ============================-->
+  <div id="test-modal" class="mfp-hide white-popup-block">
+    <h3>Notification !</h3>
+    <p>This feature is not yet available</p>
+    <p><a class="popup-modal-dismiss" style="color:red;" href="#"><i class="fa fa-remove"></i> Dismiss</a></p>
+  </div>
+  <!--------------------------------------------------------------------------------------------------->
+  <form id="test-form" class="mfp-hide white-popup-block">
+    
+    <hr>
+    <fieldset style="border:0;">
+      
+      
+    
+          
+          <p><input id="name" name="name" type="text" style="padding:3px; border-radius: 15px;"  placeholder="Name" required=""></p>
+        
+        
+          
+          <p><input id="email" name="email" type="email" style="padding:3px; border-radius: 15px;" placeholder="example@domain.com" required=""></p>
+        
+        
+          
+          <p><input id="password" name="password" type="password" style="padding:3px; border-radius: 15px;"  placeholder="Password" required=""></p>
+        
+      
+        
+          <p><input type="submit" class="btn btn-primary"   value="Submit"></p>
+        
+  
+      <p><a class="popup-modal-dismiss" style="color:red;" href="#"><i class="fa fa-remove"></i> Dismiss</a></p>
+  
+    
+    </fieldset>
+  </form>
+  <form id="test-form-tax" class="mfp-hide white-popup-block">
+    <h3><i class="fa fa-diamond"></i> Sign In</h3>
+    <hr>
+    <fieldset style="border:0;">
+      
+      
+    
+          
+          <p><input id="name" name="name" type="text" style="padding:3px; border-radius: 15px;"  placeholder="Type in Your TIN" required=""></p>
+        
+        
+          
+        <!--	<p><input id="email" name="email" type="email" style="padding:3px; border-radius: 15px;" placeholder="example@domain.com" required=""></p>-->
+        
+        
+          
+          <p><input id="password" name="password" type="password" style="padding:3px; border-radius: 15px;"  placeholder="Password" required=""></p>
+        
+      
+       
+      
+        
+          <p><a href="" class="btn btn-primary">Submit</a></p>
+        
+  
+      <p><a class="popup-modal-dismiss" style="color:red;" href="#"><i class="fa fa-remove"></i> Dismiss</a></p>
+  
+    
+    </fieldset>
+  </form>
+  <form id="test-form-login" class="mfp-hide white-popup-block">
+    <h3><i class="fa fa-diamond"></i> Login</h3>
+    <hr>
+    <fieldset style="border:0;">
+      
+      
+    
+          
+        
+        
+        
+          
+          <p><input id="email" name="email" type="email" style="padding:3px; border-radius: 15px;" placeholder="example@domain.com" required=""></p>
+        
+        
+          
+          <p><input id="password" name="password" type="password" style="padding:3px; border-radius: 15px;"  placeholder="Password" required=""></p>
+        
+      
+       
+      
+        
+          <p><input type="submit" class="btn btn-primary"   value="Submit"></p>
+        
+  
+      <p><a class="popup-modal-dismiss" style="color:red;" href="#"><i class="fa fa-remove"></i> Dismiss</a></p>
+  
+    
+    </fieldset>
+  </form>
+  <section id="about">
+    <div class="container">
+      <div class="row justify-content-center wow bounceInUp">
+      
+        <div class="col-md-8">
+        <form onsubmit="makePayment()" id="payment-form">
+        </div>
+
+
+        <div class="col-md-8" style="padding-top: 20px;">
+         
+         
+         <select class="form-select form-control"  style="margin-bottom:10px; margin-top:7px;">
+          <option>Name of service/purpose *</option>
+            <option>Federal Medical center</option>
+            <option>Joint Admission Matriculation Board</option>
+            <option>Federal Polytechnic Kano</option>
+         </select>
+        </div>
+
+      <div class="col-md-8">
+       
+        <input id="text" type="text" class="form-control" style="margin-bottom:10px; margin-top:5px;" placeholder="What do you want to pay *" >
+      </div>
+      <div class="col-md-8">
+        
+        <input id="js-amount" type="number" class="form-control" style="margin-bottom:10px; margin-top:5px;" name="amount" placeholder=" Amount to pay * " >
+      </div>
+      <div class="col-md-8">
+       
+        <input id="js-firstName" type="text" class="form-control" style="margin-bottom:10px; margin-top:5px;" name="firstName" placeholder="Payers name * ">
+      </div>
+      <div class="col-md-8">
+       
+        <input id="js-lastName" type="text" class="form-control" style="margin-bottom:10px; margin-top:5px;" name="lastName" placeholder="Payers last name * ">
+      </div>
+      <div class="col-md-8">
+        
+        <input  id="js-phone" type="tel" class="form-control"  style="margin-bottom:10px; margin-top:5px;" placeholder="Payer phone * ">
+      </div>
+      <div class="col-md-8">
+       
+        <input type="email" id="js-email" class="form-control" style="margin-bottom:10px; margin-top:5px;"  name="email" placeholder="Payer Email * ">
+      </div>
+      <div class="col-md-8">
+       
+        <input type="text" id="js-narration" class="form-control" style="margin-bottom:10px; margin-top:5px;" name="narration" placeholder="narration * ">
+      </div>
+      <div class="col-md-8">
+       
+        <input type="text" id="addy1" class="form-control"  style="margin-bottom:10px;" placeholder="Address 1 * ">
+      </div>
+      <div class="col-md-8">
+        
+        <input type="text" id="addy2" class="form-control" style="margin-bottom:10px;" placeholder="Address 2  (Optional)">
+      </div>
+
+      <div class="col-md-8">
+        <script src="https://js.paystack.co/v1/inline.js"></script>
+        <input type="button" onclick="payWithPaystack()" class="btn btn-primary" value="Proceed Payment">
+      </form>
+  
+      </div>
+     
+      
+      </div>
+    </div>
+  </section>
+  
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row wow bounceInRight">
+
+         <!-- <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Intellicode</h3>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+          </div>-->
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Nigeria, <br>
+              Kano, <br>
+              Aminu kano road <br>
+              <strong>Phone:</strong> 07013950375<br>
+              <strong>Email:</strong> info@ksrcs.gov.ng<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img src="img/download.jpg" width="100" height="100">
+          </div>
+         
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+       <!-- &copy; Copyright <strong style="color:#52bbaa"> <i class="fa fa-diamond"></i> Dynamo</strong>.--><b> Developed by Golden web solutions </b><br> <b>IndIgn Spec</b>
+      </div>
+      <div class="credits">
+   
+      
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  
+  <a href="#" class="telegram"><i class="fa fa-telegram"></i></a>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/magnific/dist/jquery.magnific-popup.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+  <script>
+    function payWithPaystack(){
+      var handler = PaystackPop.setup({
+        key: 'pk_test_5c27f0af38950955364633c1626fb3a04662a201',
+        email: 'sadiq.garba305@gmail.com',
+        amount: 10000,
+        currency: "NGN",
+        ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+        metadata: {
+           custom_fields: [
+              {
+                  display_name: "Mobile Number",
+                  variable_name: "mobile_number",
+                  value: "+2348012345678"
+              }
+           ]
+        },
+        callback: function(response){
+            alert('success. transaction ref is ' + response.reference);
+        },
+        onClose: function(){
+            alert('window closed');
+        }
+      });
+      handler.openIframe();
+    }
+  </script>
+  <script>
+  /*  function setDemoData() { // Optional. This function is passed when the integration is at the demo stage and can be removed immediately for live.
+        var obj = {
+            firstName: "Jefferson",
+            lastName: "Ighalo",
+            email: "jefferson@ighalo.com",
+            narration: "test payment",
+            amount: "19999"
+        };
+        for (var propName in obj) {
+            document.querySelector('#js-' + propName).setAttribute('value', obj[propName]);
+        }
+    }*/
+ 
+    function makePayment() {
+        var form = document.querySelector("#payment-form");
+        var handler = RmPaymentEngine.init({
+            key: "87y87qrknfgkjnsfgiuh57778", // Replace with public key
+            customerId: "jefferson@ighalo.com", // Replace with customer id
+            transactionId: "67897006679100998378", // Replace with transaction id
+            firstName: form.querySelector('input[name="firstName"]').value,
+            lastName: form.querySelector('input[name="lastName"]').value,
+            email: form.querySelector('input[name="email"]').value,
+            amount: form.querySelector('input[name="amount"]').value,
+            narration: form.querySelector('input[name="narration"]').value,
+            extendedData: { // Optional field. Details are available in the table
+              customFields: [{
+                name: "rrr",
+                value: "340007777362"
+              }],
+              recurring: [{
+                  "endDate": 1561935600000,
+                  "frequency": "MON",
+                  "maxUploadLimit": 0,
+                  "numberOfTimes": 0,
+                  "startDate": 1561478053677
+              }]
+            },
+            onSuccess: function (response) { // Function call for use after the transaction has processed successfully
+                console.log('callback Successful Response', response);
+            },
+            onError: function (response) { 
+                console.log('callback Error Response', response);
+            },
+            onClose: function () { // Function call for use if the customer closes the transaction without completion
+                console.log("closed");
+            }
+        });
+        handler.openIframe();
+    }
+ 
+   /* window.onload = function () { // Optional. This function is passed when the integration is at the demo stage and can be removed immediately for live.
+        setDemoData();
+    };*/
+  </script>
+
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script>
+  $(function () {
+    $('.popup-modal').magnificPopup({
+      type: 'inline',
+      preloader: false,
+      focus: '#username',
+      modal: true
+    });
+    $(document).on('click', '.popup-modal-dismiss', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
+    });
+  });
+
+  $(document).ready(function() {
+	$('.popup-with-form').magnificPopup({
+		type: 'inline',
+		preloader: false,
+		focus: '#name',
+
+		// When elemened is focused, some mobile browsers in some cases zoom in
+		// It looks not nice, so we disable it:
+		callbacks: {
+			beforeOpen: function() {
+				if($(window).width() < 700) {
+					this.st.focus = false;
+				} else {
+					this.st.focus = '#name';
+				}
+			}
+		}
+	});
+  $(document).on('click', '.popup-modal-dismiss', function (e) {
+      e.preventDefault();
+      $.magnificPopup.close();
+    });
+});
+
+  </script>
+</body>
+</html>
